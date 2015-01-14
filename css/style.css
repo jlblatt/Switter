@@ -1,0 +1,77 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/**********************************************************/
+
+html { height: 100%; }
+body { height: 100%; font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; background: #96c1e3;
+       background: -moz-linear-gradient(#96c1e3, #658299);
+       background: -webkit-gradient(linear, left top, left bottom, from(#96c1e3), to(#658299));
+       background: -ms-linear-gradient(top, #96c1e3, #658299);
+       background: -o-linear-gradient(top, #96c1e3, #658299);
+       background-attachment: fixed;
+}
+
+a { color: #195481; text-decoration: underline; }
+a:hover { text-decoration: none; color: #333; }
+a:visited { color: #777; }
+
+#wrapper { width: 800px; margin: 0 auto; }
+
+#switter { padding: 60px 0 60px 0; }
+#query-label { display: none; }
+
+#query-wrapper { float: left; width: 520px; border: 1px solid #444; border-radius: 10px; padding: 8px 10px 10px 80px; box-shadow: 0 7px 16px #444;
+                 background: #fff url("../images/bird-icon.png") 14px 14px no-repeat; }
+#query { width: 100%; margin: 0; padding: 0; border: 0; border-radius: 0; background: transparent; font-family: Gudea; font-size: 36px; text-shadow: 0 1px 0 #666; }
+
+#submit-wrapper { float: right; }
+#submit { font-size: 36px; padding: 9px 24px; border-radius: 10px; box-shadow: 0 7px 16px #444; }
+
+#loading { display: none; text-align: center; padding-top: 60px; }
+
+#results { display: none; background: #fff; border: 1px solid #444; border-radius: 10px; padding: 36px 48px 36px 36px; box-shadow: 0 7px 16px #444; margin-bottom: 60px; }
+.tweet { padding-bottom: 36px; margin-bottom: 20px; border-bottom: 1px solid #ddd; }
+.profile-image-container { float: left; }
+.profile-image { border: 1px solid #333; }
+.timestamp { float: right; font-size: 10px; color: #999; }
+.user { margin: 0 0 12px 72px; font-family: Gudea; font-size: 18px; color: #aaa; }
+.user a { text-decoration: none; color: #000; font-weight: bold; }
+.user a:hover { text-decoration: underline; color: #195481; }
+.text { margin-left: 72px; font-size: 12px; color: #333; line-height: 18px; }
+.text strong { color: #000; }
+.permalink { margin: 12px 0 0 72px; font-size: 11px; }
+.permalink a { text-decoration: none; font-style: italic; }
+
+#search-meta { font-size: 10px; color: #888; font-style: italic; text-align: center; }
+
+.btn_lg {
+    background-color: #019AD2;
+    background-repeat: no-repeat;
+    background: -moz-linear-gradient(#507795, #195481);
+    background: -webkit-gradient(linear, left top, left bottom, from(#507795), to(#195481));
+    background: -ms-linear-gradient(top, #507795, #195481);
+    background: -o-linear-gradient(top, #507795, #195481);
+    border: 1px solid #144568;
+    color: #eee;
+    cursor: pointer;
+    text-shadow: -1px -1px 0 #222;
+}
+
+.btn_lg:hover {
+    background-color: #195481;
+    background: -moz-linear-gradient(#195481, #195481);
+    background: -webkit-gradient(linear, left top, left bottom, from(#195481), to(#0271BF));
+    background: -ms-linear-gradient(top, #195481, #195481);
+    background: -o-linear-gradient(top, #195481, #195481);
+    border: 1px solid #144568;
+}
+
+.clear { clear: both; }
